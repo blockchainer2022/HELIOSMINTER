@@ -115,7 +115,7 @@ const TopSection = ({
                   }
                   disabled={!account ? true : false}
                 >
-                  {totalSupply === 2000 ? "All Sold" : "Skeletal Cats Panda"}
+                  {totalSupply === 2000 ? "All Sold" : "Skeletal Cats "}
                 </Button>
                 <br />
                 <span
