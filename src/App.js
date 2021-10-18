@@ -86,7 +86,7 @@ const App = () => {
       setPrice(price);
       const displayPrice = window.web3.utils.fromWei(price, "ether");
       setDisplayPrice(displayPrice);
-      const MAX_SUPPlY = await contract.methods.MAX_SUPPlY().call();
+      const MAX_SUPPlY = await contract.methods.MAX_SUPPLY().call();
       // console.log("MAX_SUPPLY:", MAX_SUPPlY);
       setMaxSupply(MAX_SUPPlY);
 

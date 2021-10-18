@@ -105,7 +105,7 @@ export const contractAbi = [
   },
   {
     inputs: [],
-    name: "MAX_SUPPlY",
+    name: "MAX_SUPPLY",
     outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
     type: "function",
@@ -144,9 +144,23 @@ export const contractAbi = [
     type: "function",
   },
   {
+    inputs: [],
+    name: "burnUnsoldNFTs",
+    outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+    stateMutability: "nonpayable",
+    type: "function",
+  },
+  {
     inputs: [{ internalType: "uint256", name: "tokenId", type: "uint256" }],
     name: "getApproved",
     outputs: [{ internalType: "address", name: "", type: "address" }],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [],
+    name: "getNFTBalance",
+    outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
     stateMutability: "view",
     type: "function",
   },
@@ -355,6 +369,7 @@ export const contractAbi = [
     type: "function",
   },
 ];
+
 // export const contractAddress = "0xD73eE48F78da0B851892A60772acC9d0218374FE";
 // export const contractAddress = "0x25A0d5147BaF36D6DE8d85EA461162810870Dd74";
-export const contractAddress = "0x214d3e72bd0CBd995717Ad017Ff1D361A7264d2e";
+export const contractAddress = "0x23b172247Bb1DC9446Cfc81D0557bD07222Bd659";
