@@ -226,7 +226,7 @@ const App = () => {
         open={lessMintAmountAlert}
         onClose={setLessMintAmountAlert}
         title="Oops"
-        text="Atleast 1 Coochycoo Panda should be minted"
+        text="Atleast 1 Skeletal Cats should be minted"
       />
       <InformationModal
         open={accessAccountDenied}
@@ -268,7 +268,7 @@ const App = () => {
         open={switchToMainnet}
         onClose={setswitchToMainnet}
         title="Error"
-        text="Please switch to mainnet to mint Coochycoo Panda"
+        text="Please switch to mainnet to mint Skeletal Cats"
       />
       <InformationModal
         open={ethereumCompatibleBrowser}

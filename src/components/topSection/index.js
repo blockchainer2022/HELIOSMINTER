@@ -88,7 +88,7 @@ const TopSection = ({
               </div>
 
               <p className="slider-below-text">
-                Buy {value} Coochycoo Panda{" "}
+                Buy {value} Skeletal Cats{" "}
                 <span className="big-font">
                   {(value * price).toFixed(4)} Ether
                 </span>
@@ -115,7 +115,7 @@ const TopSection = ({
                   }
                   disabled={!account ? true : false}
                 >
-                  {totalSupply === 2000 ? "All Sold" : "Buy Coochycoo Panda"}
+                  {totalSupply === 2000 ? "All Sold" : "Skeletal Cats Panda"}
                 </Button>
                 <br />
                 <span
@@ -135,7 +135,7 @@ const TopSection = ({
               </div>
 
               <p>
-                Total Coochycoo Panda Sold{" "}
+                Total Skeletal Cats Sold{" "}
                 <span className="linebreak">
                   {totalSupply}/{maxSupply}
                 </span>
